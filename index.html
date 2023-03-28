@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- https://www.youtube.com/watch?v=vBXyJWwNN-I&list=WL&index=1 -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css">
+  <title>ToDo list</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="header__container">
+        <div class="header__body">
+          <h1 class="header__title">ToDo list</h1>
+          <h2 class="header__subtitle">task list for today</h2>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <div class="main__tasks tasks">
+        <div class="tasks__container">
+          <ul class="tasks__list">
+            
+          </ul>
+        </div>
+      </div>
+
+      <div class="main__new-task new-task">
+        <div class="new-task__container">
+          <form action="#" class="new-task__form form-new-task">
+            <input autocomplete="off" type="text" placeholder="Enter task text" class="form-new-task__input" required>
+            <button id="add-task" type="submit" class="form-new-task__button button">Add to list</button>
+            <!-- <button id="delete-complited" type="button" class="form-new-task__button button button_red">Delete completed tasks</button> -->
+          </form>
+        </div>
+      </div>
+
+    </main>
+
+  </div>
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
